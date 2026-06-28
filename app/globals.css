@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+* {
+  cursor: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F97316;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #EA580C;
+}
+
+select, select * {
+  cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'/>") 0 0, none !important;
+}
